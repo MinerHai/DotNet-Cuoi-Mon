@@ -42,7 +42,7 @@ namespace QLVanChuyen_App
             if (user_controller.LoginUser(username, password) != null)
             {
                 this.Hide();
-                new DashBoard().Show();
+                new DashBoard(user_controller.LoginUser(username, password)).Show();
             }
             else
             {

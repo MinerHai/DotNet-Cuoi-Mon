@@ -60,3 +60,9 @@ C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\
 C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\bin\Debug\net8.0-windows\System.Management.dll
 C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
 C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\obj\Debug\net8.0-windows\QLVanChuyen_App.views.DashBoard.resources
+C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\obj\Debug\net8.0-windows\QLVanChuyen_App.views.QLTK.resources
+C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\obj\Debug\net8.0-windows\QLVanChuyen_App.views.QLKH.resources
+C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\obj\Debug\net8.0-windows\QLVanChuyen_App.views.QLPT.resources
+C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\bin\Debug\net8.0-windows\System.Windows.Forms.DataVisualization.dll
+C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\obj\Debug\net8.0-windows\QLVanChuyen_App.views.QLDH.resources
+C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\obj\Debug\net8.0-windows\QLVanChuyen_App.views.ChiTiet_DonHang.resources

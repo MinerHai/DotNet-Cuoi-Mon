@@ -3,6 +3,7 @@ using QLVanChuyen_App.DAO;
 using QLVanChuyen_App.models;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.Common;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace QLVanChuyen_App.controllers
     internal class UserController
     {
         private MaHoa mahoa;
-        private SqlConnection conn;
+        private readonly SqlConnection conn;
 
         public UserController()
         {
@@ -96,7 +97,7 @@ namespace QLVanChuyen_App.controllers
                 if (ex.Number == 2627 || ex.Number == 2601)
                 {
                     MessageBox.Show("Người dùng đã tồn tại");
-                    throw new Exception("Lỗi: ID đã tồn tại trong cơ sở dữ liệu.", ex);
+                    return false;
                 }
                 else
                 {
@@ -113,57 +114,41 @@ namespace QLVanChuyen_App.controllers
             }
 
         }
-
-        public bool AddUser(string username, string password, string role)
-        {
-            string query = "INSERT INTO Users(Username, Pass, Role) VALUES(@Username, @Pass, @Role)";
-            try
-            {
-                string hashPassword = mahoa.HashPassword(password);
-                using (var command = new SqlCommand(query, conn))
-                {
-                    command.Parameters.AddWithValue("@Username", username);
-                    command.Parameters.AddWithValue("@Pass", hashPassword);
-                    command.Parameters.AddWithValue("@Role", role);
-                    command.ExecuteNonQuery();
-                }
-                return true;
-            }
-            catch (SqlException ex)
-            {
-                if (ex.Number == 2627 || ex.Number == 2601)
-                {
-                    MessageBox.Show("Người dùng đã tồn tại");
-                    throw new Exception("Lỗi: ID đã tồn tại trong cơ sở dữ liệu.", ex);
-                }
-                return false;
-            }
-        }
-
         public bool RemoveUser(string username)
         {
             string query = "DELETE FROM Users WHERE Username = @Username";
             try
             {
+                if (conn.State != ConnectionState.Open)
+                    conn.Open();
+
                 using (var command = new SqlCommand(query, conn))
                 {
-                    command.Parameters.AddWithValue("@Username", username);
-                    command.ExecuteNonQuery();
+                    command.Parameters.Add("@Username", SqlDbType.NVarChar).Value = username;
+                    int rowsAffected = command.ExecuteNonQuery();
+                    return rowsAffected > 0;
                 }
-                return true;
             }
             catch (SqlException ex)
             {
                 Console.WriteLine(ex.Message);
                 return false;
             }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                    conn.Close();
+            }
         }
+
 
         public bool ChangeRole(string username, string role)
         {
             string query = "UPDATE Users SET Role = @Role WHERE Username = @Username";
             try
             {
+                if (conn.State != ConnectionState.Open)
+                    conn.Open();
                 using (var command = new SqlCommand(query, conn))
                 {
                     command.Parameters.AddWithValue("@Role", role);
@@ -176,6 +161,11 @@ namespace QLVanChuyen_App.controllers
             {
                 Console.WriteLine(ex.Message);
                 return false;
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                    conn.Close();
             }
         }
 
@@ -184,6 +174,8 @@ namespace QLVanChuyen_App.controllers
             string query = "UPDATE Users SET Pass = @Pass WHERE Username = @Username";
             try
             {
+                if (conn.State != ConnectionState.Open)
+                    conn.Open();
                 string hashPassword = mahoa.HashPassword(newPassword);
                 using (var command = new SqlCommand(query, conn))
                 {
@@ -198,35 +190,76 @@ namespace QLVanChuyen_App.controllers
                 Console.WriteLine(ex.Message);
                 return false;
             }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                    conn.Close();
+            }
         }
 
-        public List<Users> GetUserList()
+        public DataTable GetUserDataTable()
         {
-            List<Users> userList = new List<Users>();
-            string query = "SELECT * FROM Users";
+            DataTable dataTable = new DataTable();
+            string query = "SELECT UserID, Username, Role FROM Users";
             try
             {
-                using (var command = new SqlCommand(query, conn))
-                using (var reader = command.ExecuteReader())
+                if (conn.State != System.Data.ConnectionState.Open)
+                    conn.Open();
+                using (SqlDataAdapter adapter = new SqlDataAdapter(query, conn))
                 {
-                    while (reader.Read())
-                    {
-                        int id = reader.GetInt32(reader.GetOrdinal("UserId"));
-                        string username = reader.GetString(reader.GetOrdinal("Username"));
-                        string pass = reader.GetString(reader.GetOrdinal("Pass"));
-                        string role = reader.GetString(reader.GetOrdinal("Role"));
-
-                        userList.Add(new Users(id, username, pass, role));
-                    }
+                    adapter.Fill(dataTable);
                 }
-                return userList;
             }
             catch (SqlException ex)
             {
-                Console.WriteLine(ex.Message);
-                return userList;
+                Console.WriteLine("SQL Error: " + ex.Message);
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+            finally
+            {
+                if (conn.State == System.Data.ConnectionState.Open)
+                    conn.Close();
+            }
+
+            return dataTable;
         }
+
+        public DataTable GetUserDataTable(string keyword)
+        {
+            string query = @"SELECT UserID, Username, Role
+                            FROM Users
+                            WHERE Username LIKE @Keyword OR CAST(UserID AS NVARCHAR) LIKE @Keyword";
+            DataTable dataTable = new DataTable();
+            try
+            {
+                if (conn.State != System.Data.ConnectionState.Open)
+                    conn.Open();
+                using (SqlCommand command = new SqlCommand(query, conn))
+                {
+                    command.Parameters.AddWithValue("@Keyword", "%" + keyword + "%");
+
+                    using (SqlDataAdapter adapter = new SqlDataAdapter(command))
+                    {
+                        adapter.Fill(dataTable);
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine("SQL Error: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+
+            return dataTable;
+        }
+
+
 
         public string GetRoleCount(string role)
         {

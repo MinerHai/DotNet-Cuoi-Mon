@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Bunifu.UI.WinForms" Version="7.2.0" />
+    <PackageReference Include="HIC.System.Windows.Forms.DataVisualization" Version="1.0.1" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
   </ItemGroup>
 

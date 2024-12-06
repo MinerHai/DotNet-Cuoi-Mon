@@ -232,6 +232,7 @@
             ClientSize = new Size(829, 530);
             Controls.Add(panel4);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Form1";
             Text = "Login";
             FormClosed += Form1_FormClosed;

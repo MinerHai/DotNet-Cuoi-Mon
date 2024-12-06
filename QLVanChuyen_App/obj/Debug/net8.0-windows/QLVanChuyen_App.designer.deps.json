@@ -65,6 +65,17 @@
           }
         }
       },
+      "HIC.System.Windows.Forms.DataVisualization/1.0.1": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.2.2"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/System.Windows.Forms.DataVisualization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -517,6 +528,13 @@
       "sha512": "sha512-Nd53wgesLs4tXNNOWES/VRzNAGWoXu0TWvSgL+u66JBU+OajA5bM9qkXhEXI6OvbMZa9JjOiHm98hVfNjOnKEg==",
       "path": "bunifu.ui.winforms/7.2.0",
       "hashPath": "bunifu.ui.winforms.7.2.0.nupkg.sha512"
+    },
+    "HIC.System.Windows.Forms.DataVisualization/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2iErCJov37VIGLATCcI8tAaFemn8KJW/b4686foj+CslKTSGa2NcQgvVCYF+kR4+6d9cg09X1xrcoIgnVlznsA==",
+      "path": "hic.system.windows.forms.datavisualization/1.0.1",
+      "hashPath": "hic.system.windows.forms.datavisualization.1.0.1.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

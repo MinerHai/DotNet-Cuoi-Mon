@@ -256,6 +256,7 @@
             ClientSize = new Size(829, 530);
             Controls.Add(panel4);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "SignUp";
             Text = "SignUp";
             FormClosed += SignUp_FormClosed;

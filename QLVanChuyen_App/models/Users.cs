@@ -7,13 +7,19 @@ using System.Threading.Tasks;
 
 namespace QLVanChuyen_App.models
 {
-    internal class Users
+    public class Users
     {
         public Users(int id, string? userName, string? password, string? role)
         {
             Id = id;
             UserName = userName;
             Password = password;
+            Role = role;
+        }
+        public Users(int id, string? userName , string? role)
+        {
+            Id = id;
+            UserName = userName;
             Role = role;
         }
 

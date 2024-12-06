@@ -12,7 +12,7 @@ namespace QLVanChuyen_App.DAO
     {
         public SqlConnection GetConnection()
         {
-            string? connectStr = "Server=MINER-PC\\SQLEXPRESS;Database=QUANLYVANCHUYEN;User Id=sql_quanlyvanchuyen;Password=12345;Integrated Security=true; TrustServerCertificate=true;";
+            string? connectStr = "Server=localhost,1433;Database=QUANLYVANCHUYEN;User Id=sql_quanlyvanchuyen;Password=12345;Integrated Security=true; TrustServerCertificate=true;";
             SqlConnection connection = new SqlConnection(connectStr);
             return connection;
         }

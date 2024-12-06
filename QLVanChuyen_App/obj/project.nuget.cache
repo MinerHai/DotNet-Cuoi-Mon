@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZmkRf69huuS1lqn7KBapz2bSMiQHXSxDrG+eVgpMT6wWNJPmFPVYS3Ge6fGq65J1GiI4j/nwPz5jncHV/7vqFA==",
+  "dgSpecHash": "x4ZfyUM0p32uNhbQkZ3X6mhI/cQV5pOQwoD8Is+Ss/pXI5bb1rOJstx4mZ5TcxbakJL/4/z1sxpXPyt1ZCOAqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_trường\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\QLVanChuyen_App.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\bunifu.licensing\\6.0.4\\bunifu.licensing.6.0.4.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\bunifu.ui.winforms\\7.2.0\\bunifu.ui.winforms.7.2.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\hic.system.windows.forms.datavisualization\\1.0.1\\hic.system.windows.forms.datavisualization.1.0.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.data.sqlclient\\5.2.2\\microsoft.data.sqlclient.5.2.2.nupkg.sha512",
