@@ -103,5 +103,22 @@ namespace QLVanChuyen_App.views
         {
 
         }
+
+        private void btnXuatFile_Click(object sender, EventArgs e)
+        {
+            string data = $"Phiếu đơn hàng\n"
+                        + "-------------------------\n"
+                        + "Mã đơn hàng: " +txtMaDH.Text + "\n"
+                        + "Ngày tạo đơn: " + txtNgay.Text + "\n"
+                        + "Mã khách hàng: " + txtMaKH.Text  + "\n"
+                        + "Tên khách hàng: " + txtTenKH.Text + "\n"
+                        + "Số điện thoại: " + txtSDT.Text + "\n"
+                        + "Địa chỉ: " + txtDiaChi.Text + "\n"
+                        + "Ghi chú: " + txtGhiChu.Text + "\n"
+                        + "-------------------------\n"
+                        + "Ngày in: " + DateTime.Now.ToString("dd/MM/yyyy");
+
+            new XuatFile().InData(data);
+        }
     }
 }

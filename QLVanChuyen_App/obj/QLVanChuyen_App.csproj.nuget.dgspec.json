@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[7.2.0, )"
             },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
             "HIC.System.Windows.Forms.DataVisualization": {
               "target": "Package",
               "version": "[1.0.1, )"
@@ -56,6 +60,10 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.2.2, )"
+            },
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1001, )"
             }
           },
           "imports": [

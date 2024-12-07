@@ -193,15 +193,22 @@ namespace QLVanChuyen_App.views
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question
             );
-            int id = Convert.ToInt32(txtID.Text);
-            if (kh_controller.EditKhachHang(id, hoten, diachi, sdt))
+            if (confirmation == DialogResult.Yes)
             {
-                MessageBox.Show("Chỉnh sửa thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                clearTXt();
-                loadData();
+                int id = Convert.ToInt32(txtID.Text);
+                if (kh_controller.EditKhachHang(id, hoten, sdt, diachi))
+                {
+                    MessageBox.Show("Chỉnh sửa thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    clearTXt();
+                    loadData();
+                }
             }
+
         }
 
-       
+        private void btnIn_Click(object sender, EventArgs e)
+        {
+            new XuatFile().In_DataTable_To_Excel(tableKH);
+        }
     }
 }

@@ -53,7 +53,7 @@ namespace QLVanChuyen_App.controllers
         }
         public bool AddCTDonHang(int? madh, int? maxe)
         {
-            string query = @"INSERT INTO CHITIETVANCHUYEN(Madonhang, Maxe) VALUES(@madh,@maxe)";
+            string query = @"INSERT INTO CHITIETVANCHUYEN(MaDonHang, MaXe) VALUES(@madh,@maxe)";
             try
             {
                 if (conn.State != System.Data.ConnectionState.Open)
@@ -65,7 +65,9 @@ namespace QLVanChuyen_App.controllers
                 {
                     command.Parameters.AddWithValue("@madh", madh);
                     command.Parameters.AddWithValue("@maxe", maxe);
-                    return true;
+                    int rowsAffected = command.ExecuteNonQuery();
+
+                    return rowsAffected > 0;
                 }
             }
             catch (SqlException ex)

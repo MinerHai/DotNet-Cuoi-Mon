@@ -199,6 +199,11 @@ namespace QLVanChuyen_App.views
                 txtLoaiXe.Text = row.Cells["LoaiXe"].Value.ToString();
             }
         }
+
+        private void btnIn_Click(object sender, EventArgs e)
+        {
+            new XuatFile().In_DataTable_To_Excel(tablePT);
+        }
         //
     }
 }

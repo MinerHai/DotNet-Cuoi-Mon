@@ -134,7 +134,6 @@
             tableDH.Size = new Size(443, 456);
             tableDH.TabIndex = 43;
             tableDH.CellClick += tableDH_CellContentClick;
-            tableDH.CellContentClick += tableDH_CellContentClick;
             // 
             // panel2
             // 

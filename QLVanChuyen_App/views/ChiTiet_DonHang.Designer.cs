@@ -543,6 +543,7 @@
             btnXuatFile.TabIndex = 30;
             btnXuatFile.Text = "In";
             btnXuatFile.UseVisualStyleBackColor = true;
+            btnXuatFile.Click += btnXuatFile_Click;
             // 
             // btnXoa
             // 

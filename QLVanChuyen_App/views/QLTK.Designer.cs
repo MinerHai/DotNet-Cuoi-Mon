@@ -70,6 +70,7 @@
             txtTim = new TextBox();
             button1 = new Button();
             tableUser = new DataGridView();
+            btnIn = new Button();
             panel2.SuspendLayout();
             panel7.SuspendLayout();
             btnQLKH.SuspendLayout();
@@ -540,7 +541,7 @@
             panel11.BackColor = Color.FromArgb(0, 92, 103);
             panel11.Location = new Point(638, 523);
             panel11.Name = "panel11";
-            panel11.Size = new Size(434, 1);
+            panel11.Size = new Size(362, 1);
             panel11.TabIndex = 26;
             // 
             // txtTim
@@ -551,7 +552,7 @@
             txtTim.Font = new Font("Segoe UI", 12F);
             txtTim.Location = new Point(644, 495);
             txtTim.Name = "txtTim";
-            txtTim.Size = new Size(434, 22);
+            txtTim.Size = new Size(362, 22);
             txtTim.TabIndex = 25;
             // 
             // button1
@@ -584,11 +585,27 @@
             tableUser.TabIndex = 4;
             tableUser.CellContentClick += tableUser_CellContentClick;
             // 
+            // btnIn
+            // 
+            btnIn.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnIn.ForeColor = Color.FromArgb(88, 88, 88);
+            btnIn.Image = (Image)resources.GetObject("btnIn.Image");
+            btnIn.ImageAlign = ContentAlignment.MiddleRight;
+            btnIn.Location = new Point(1006, 495);
+            btnIn.Name = "btnIn";
+            btnIn.Size = new Size(71, 32);
+            btnIn.TabIndex = 36;
+            btnIn.Text = "In";
+            btnIn.TextAlign = ContentAlignment.MiddleLeft;
+            btnIn.UseVisualStyleBackColor = true;
+            btnIn.Click += btnIn_Click;
+            // 
             // QLTK
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1084, 591);
+            Controls.Add(btnIn);
             Controls.Add(button1);
             Controls.Add(panel11);
             Controls.Add(txtTim);
@@ -668,5 +685,6 @@
         private Label label14;
         private ListBox listRole;
         private DataGridView tableUser;
+        private Button btnIn;
     }
 }

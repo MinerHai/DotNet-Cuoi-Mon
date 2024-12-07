@@ -10,8 +10,10 @@
 
   <ItemGroup>
     <PackageReference Include="Bunifu.UI.WinForms" Version="7.2.0" />
+    <PackageReference Include="EPPlus" Version="7.5.1" />
     <PackageReference Include="HIC.System.Windows.Forms.DataVisualization" Version="1.0.1" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
   </ItemGroup>
 
   <ItemGroup>

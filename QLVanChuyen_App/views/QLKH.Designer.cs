@@ -71,6 +71,7 @@
             bthTimKiem = new Button();
             panel12 = new Panel();
             txtTim = new TextBox();
+            btnIn = new Button();
             panel2.SuspendLayout();
             panel7.SuspendLayout();
             panel6.SuspendLayout();
@@ -583,7 +584,7 @@
             panel12.BackColor = Color.FromArgb(0, 92, 103);
             panel12.Location = new Point(638, 540);
             panel12.Name = "panel12";
-            panel12.Size = new Size(434, 1);
+            panel12.Size = new Size(350, 1);
             panel12.TabIndex = 32;
             // 
             // txtTim
@@ -594,14 +595,30 @@
             txtTim.Font = new Font("Segoe UI", 12F);
             txtTim.Location = new Point(644, 512);
             txtTim.Name = "txtTim";
-            txtTim.Size = new Size(434, 22);
+            txtTim.Size = new Size(344, 22);
             txtTim.TabIndex = 31;
+            // 
+            // btnIn
+            // 
+            btnIn.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnIn.ForeColor = Color.FromArgb(88, 88, 88);
+            btnIn.Image = (Image)resources.GetObject("btnIn.Image");
+            btnIn.ImageAlign = ContentAlignment.MiddleRight;
+            btnIn.Location = new Point(1010, 512);
+            btnIn.Name = "btnIn";
+            btnIn.Size = new Size(71, 32);
+            btnIn.TabIndex = 35;
+            btnIn.Text = "In";
+            btnIn.TextAlign = ContentAlignment.MiddleLeft;
+            btnIn.UseVisualStyleBackColor = true;
+            btnIn.Click += btnIn_Click;
             // 
             // QLKH
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1084, 591);
+            Controls.Add(btnIn);
             Controls.Add(bthTimKiem);
             Controls.Add(panel12);
             Controls.Add(txtTim);
@@ -680,5 +697,6 @@
         private Button bthTimKiem;
         private Panel panel12;
         private TextBox txtTim;
+        private Button btnIn;
     }
 }

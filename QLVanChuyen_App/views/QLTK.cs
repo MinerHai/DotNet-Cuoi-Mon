@@ -235,5 +235,10 @@ namespace QLVanChuyen_App.views
         {
 
         }
+
+        private void btnIn_Click(object sender, EventArgs e)
+        {
+            new XuatFile().In_DataTable_To_Excel(tableUser);
+        }
     }
 }
