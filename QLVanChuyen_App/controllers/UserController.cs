@@ -24,7 +24,8 @@ namespace QLVanChuyen_App.controllers
 
         public Users LoginUser(string username, string password)
         {
-            string query = "SELECT * FROM Users WHERE Username = @Username";
+            string hashpass = mahoa.HashPassword(password);
+            string query = "SELECT * FROM Users WHERE Username = @username";
 
             try
             {
@@ -35,7 +36,7 @@ namespace QLVanChuyen_App.controllers
 
                 using (var command = new SqlCommand(query, conn))
                 {
-                    command.Parameters.AddWithValue("@Username", username);
+                    command.Parameters.AddWithValue("@username", username);
                     var reader = command.ExecuteReader();
 
                     if (reader.Read())
@@ -46,7 +47,7 @@ namespace QLVanChuyen_App.controllers
 
                         var user = new Users(id, username, hashPass, role);
 
-                        if (user == null || user.Password.Equals(mahoa.HashPassword(password)))
+                        if (user == null || !user.Password.Equals(hashpass))
                         {
                             return null;
                         }

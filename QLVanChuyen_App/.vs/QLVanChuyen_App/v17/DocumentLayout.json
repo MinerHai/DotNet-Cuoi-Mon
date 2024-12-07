@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|c:\\users\\dell\\onedrive\\desktop\\csharp_tr\u01B0\u1EDDng\\dotnet-cuoi-mon\\qlvanchuyen_app\\views\\qldh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|solutionrelative:views\\qldh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|c:\\users\\dell\\onedrive\\desktop\\csharp_tr\u01B0\u1EDDng\\dotnet-cuoi-mon\\qlvanchuyen_app\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|c:\\users\\dell\\onedrive\\desktop\\csharp_tr\u01B0\u1EDDng\\dotnet-cuoi-mon\\qlvanchuyen_app\\views\\qlkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|solutionrelative:views\\qlkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|c:\\users\\dell\\onedrive\\desktop\\csharp_tr\u01B0\u1EDDng\\dotnet-cuoi-mon\\qlvanchuyen_app\\views\\doimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|solutionrelative:views\\doimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|c:\\users\\dell\\onedrive\\desktop\\csharp_tr\u01B0\u1EDDng\\dotnet-cuoi-mon\\qlvanchuyen_app\\views\\qlpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|solutionrelative:views\\qlpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|c:\\users\\dell\\onedrive\\desktop\\csharp_tr\u01B0\u1EDDng\\dotnet-cuoi-mon\\qlvanchuyen_app\\views\\qltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|solutionrelative:views\\qltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|c:\\users\\dell\\onedrive\\desktop\\csharp_tr\u01B0\u1EDDng\\dotnet-cuoi-mon\\qlvanchuyen_app\\views\\qltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|solutionrelative:views\\qltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\qlpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|solutionrelative:views\\qlpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|c:\\users\\dell\\onedrive\\desktop\\csharp_tr\u01B0\u1EDDng\\dotnet-cuoi-mon\\qlvanchuyen_app\\views\\qlkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|solutionrelative:views\\qlkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|c:\\users\\dell\\onedrive\\desktop\\csharp_tr\u01B0\u1EDDng\\dotnet-cuoi-mon\\qlvanchuyen_app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34BC6A0-7499-45CC-9199-CE76367ED719}|QLVanChuyen_App.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,95 +33,47 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QLDH.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLDH.cs",
-              "RelativeDocumentMoniker": "views\\QLDH.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLDH.cs [Design]",
-              "RelativeToolTip": "views\\QLDH.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T03:32:08.866Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QLTK.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLTK.cs",
-              "RelativeDocumentMoniker": "views\\QLTK.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLTK.cs",
-              "RelativeToolTip": "views\\QLTK.cs",
-              "ViewState": "AQIAAN8AAAAAAAAAAAAowPAAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T03:31:38.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QLTK.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLTK.cs",
-              "RelativeDocumentMoniker": "views\\QLTK.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLTK.cs [Design]",
-              "RelativeToolTip": "views\\QLTK.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T03:31:20.576Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QLPT.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLPT.cs",
-              "RelativeDocumentMoniker": "views\\QLPT.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLPT.cs",
-              "RelativeToolTip": "views\\QLPT.cs",
-              "ViewState": "AQIAALsAAAAAAAAAAAAowM4AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T15:06:31.698Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "QLPT.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLPT.cs",
-              "RelativeDocumentMoniker": "views\\QLPT.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLPT.cs [Design]",
-              "RelativeToolTip": "views\\QLPT.cs [Design]",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA9wCEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T03:30:26.589Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-07T13:47:05.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "QLKH.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLKH.cs",
-              "RelativeDocumentMoniker": "views\\QLKH.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLKH.cs",
-              "RelativeToolTip": "views\\QLKH.cs",
-              "ViewState": "AQIAAMIAAAAAAAAAAAAgwNYAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\controllers\\UserController.cs",
+              "RelativeToolTip": "controllers\\UserController.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAAALkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T03:10:22.166Z",
+              "WhenOpened": "2024-12-07T13:18:18.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "QLKH.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLKH.cs",
-              "RelativeDocumentMoniker": "views\\QLKH.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\QLKH.cs [Design]",
-              "RelativeToolTip": "views\\QLKH.cs [Design]",
+              "Title": "DoiMatKhau.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\DoiMatKhau.cs",
+              "RelativeDocumentMoniker": "views\\DoiMatKhau.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\csharp_tr\u01B0\u1EDDng\\DotNet-Cuoi-Mon\\QLVanChuyen_App\\views\\DoiMatKhau.cs",
+              "RelativeToolTip": "views\\DoiMatKhau.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAqwDAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T03:02:56.059Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-07T13:16:39.841Z",
+              "EditorCaption": ""
             }
           ]
         }

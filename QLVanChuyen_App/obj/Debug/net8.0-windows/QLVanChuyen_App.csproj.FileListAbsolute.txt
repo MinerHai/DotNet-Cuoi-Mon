@@ -82,3 +82,4 @@ C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\
 C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\bin\Debug\net8.0-windows\System.Drawing.Common.dll
 C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
 C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Dell\OneDrive\Desktop\csharp_trường\DotNet-Cuoi-Mon\QLVanChuyen_App\obj\Debug\net8.0-windows\QLVanChuyen_App.views.DoiMatKhau.resources

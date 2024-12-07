@@ -10,6 +10,9 @@
     <Compile Update="views\DashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="views\DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="views\QLDH.cs">
       <SubType>Form</SubType>
     </Compile>

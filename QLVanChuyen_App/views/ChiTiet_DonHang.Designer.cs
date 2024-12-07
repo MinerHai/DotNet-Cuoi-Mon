@@ -151,9 +151,11 @@
             txtGhiChu.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             txtGhiChu.BackColor = Color.FromArgb(242, 242, 242);
             txtGhiChu.BorderStyle = BorderStyle.None;
+            txtGhiChu.Enabled = false;
             txtGhiChu.Font = new Font("Microsoft Sans Serif", 9.75F);
             txtGhiChu.Location = new Point(9, 355);
             txtGhiChu.Name = "txtGhiChu";
+            txtGhiChu.ReadOnly = true;
             txtGhiChu.Size = new Size(333, 15);
             txtGhiChu.TabIndex = 48;
             // 
@@ -172,9 +174,11 @@
             txtDiaChi.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             txtDiaChi.BackColor = Color.FromArgb(242, 242, 242);
             txtDiaChi.BorderStyle = BorderStyle.None;
+            txtDiaChi.Enabled = false;
             txtDiaChi.Font = new Font("Microsoft Sans Serif", 9.75F);
             txtDiaChi.Location = new Point(8, 303);
             txtDiaChi.Name = "txtDiaChi";
+            txtDiaChi.ReadOnly = true;
             txtDiaChi.Size = new Size(333, 15);
             txtDiaChi.TabIndex = 45;
             // 
@@ -202,9 +206,11 @@
             txtSDT.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             txtSDT.BackColor = Color.FromArgb(242, 242, 242);
             txtSDT.BorderStyle = BorderStyle.None;
+            txtSDT.Enabled = false;
             txtSDT.Font = new Font("Microsoft Sans Serif", 9.75F);
             txtSDT.Location = new Point(7, 257);
             txtSDT.Name = "txtSDT";
+            txtSDT.ReadOnly = true;
             txtSDT.Size = new Size(333, 15);
             txtSDT.TabIndex = 42;
             // 
@@ -241,9 +247,11 @@
             txtTenKH.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             txtTenKH.BackColor = Color.FromArgb(242, 242, 242);
             txtTenKH.BorderStyle = BorderStyle.None;
+            txtTenKH.Enabled = false;
             txtTenKH.Font = new Font("Microsoft Sans Serif", 9.75F);
             txtTenKH.Location = new Point(7, 207);
             txtTenKH.Name = "txtTenKH";
+            txtTenKH.ReadOnly = true;
             txtTenKH.Size = new Size(333, 15);
             txtTenKH.TabIndex = 39;
             // 
@@ -271,9 +279,11 @@
             txtNgay.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             txtNgay.BackColor = Color.FromArgb(242, 242, 242);
             txtNgay.BorderStyle = BorderStyle.None;
+            txtNgay.Enabled = false;
             txtNgay.Font = new Font("Microsoft Sans Serif", 9.75F);
             txtNgay.Location = new Point(8, 114);
             txtNgay.Name = "txtNgay";
+            txtNgay.ReadOnly = true;
             txtNgay.Size = new Size(333, 15);
             txtNgay.TabIndex = 33;
             // 
@@ -301,9 +311,11 @@
             txtMaKH.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             txtMaKH.BackColor = Color.FromArgb(242, 242, 242);
             txtMaKH.BorderStyle = BorderStyle.None;
+            txtMaKH.Enabled = false;
             txtMaKH.Font = new Font("Microsoft Sans Serif", 9.75F);
             txtMaKH.Location = new Point(6, 161);
             txtMaKH.Name = "txtMaKH";
+            txtMaKH.ReadOnly = true;
             txtMaKH.Size = new Size(333, 15);
             txtMaKH.TabIndex = 36;
             // 
@@ -322,9 +334,11 @@
             txtMaDH.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             txtMaDH.BackColor = Color.FromArgb(242, 242, 242);
             txtMaDH.BorderStyle = BorderStyle.None;
+            txtMaDH.Enabled = false;
             txtMaDH.Font = new Font("Microsoft Sans Serif", 9.75F);
             txtMaDH.Location = new Point(7, 68);
             txtMaDH.Name = "txtMaDH";
+            txtMaDH.ReadOnly = true;
             txtMaDH.Size = new Size(333, 15);
             txtMaDH.TabIndex = 30;
             // 
@@ -433,9 +447,11 @@
             txtLoaiPT.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             txtLoaiPT.BackColor = Color.FromArgb(242, 242, 242);
             txtLoaiPT.BorderStyle = BorderStyle.None;
+            txtLoaiPT.Enabled = false;
             txtLoaiPT.Font = new Font("Microsoft Sans Serif", 9.75F);
-            txtLoaiPT.Location = new Point(37, 210);
+            txtLoaiPT.Location = new Point(18, 204);
             txtLoaiPT.Name = "txtLoaiPT";
+            txtLoaiPT.ReadOnly = true;
             txtLoaiPT.Size = new Size(333, 15);
             txtLoaiPT.TabIndex = 48;
             // 
@@ -463,9 +479,11 @@
             txtBienSo.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             txtBienSo.BackColor = Color.FromArgb(242, 242, 242);
             txtBienSo.BorderStyle = BorderStyle.None;
+            txtBienSo.Enabled = false;
             txtBienSo.Font = new Font("Microsoft Sans Serif", 9.75F);
-            txtBienSo.Location = new Point(37, 164);
+            txtBienSo.Location = new Point(18, 158);
             txtBienSo.Name = "txtBienSo";
+            txtBienSo.ReadOnly = true;
             txtBienSo.Size = new Size(333, 15);
             txtBienSo.TabIndex = 48;
             // 
@@ -493,9 +511,11 @@
             txtTaiXe.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             txtTaiXe.BackColor = Color.FromArgb(242, 242, 242);
             txtTaiXe.BorderStyle = BorderStyle.None;
+            txtTaiXe.Enabled = false;
             txtTaiXe.Font = new Font("Microsoft Sans Serif", 9.75F);
-            txtTaiXe.Location = new Point(37, 117);
+            txtTaiXe.Location = new Point(18, 111);
             txtTaiXe.Name = "txtTaiXe";
+            txtTaiXe.ReadOnly = true;
             txtTaiXe.Size = new Size(333, 15);
             txtTaiXe.TabIndex = 48;
             // 
@@ -514,9 +534,11 @@
             txtMaPT.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             txtMaPT.BackColor = Color.FromArgb(242, 242, 242);
             txtMaPT.BorderStyle = BorderStyle.None;
+            txtMaPT.Enabled = false;
             txtMaPT.Font = new Font("Microsoft Sans Serif", 9.75F);
-            txtMaPT.Location = new Point(36, 71);
+            txtMaPT.Location = new Point(17, 65);
             txtMaPT.Name = "txtMaPT";
+            txtMaPT.ReadOnly = true;
             txtMaPT.Size = new Size(333, 15);
             txtMaPT.TabIndex = 48;
             // 

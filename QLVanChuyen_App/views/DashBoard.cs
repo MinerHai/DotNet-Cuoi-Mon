@@ -156,6 +156,12 @@ namespace QLVanChuyen_App.views
             panelChart.Controls.Add(pieChart);
         }
 
+        private void btnDoiMatKhau_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.Hide();
+            new DoiMatKhau(user_logged).Show();
+        }
+
     }
 
 }

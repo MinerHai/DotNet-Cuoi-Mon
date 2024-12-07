@@ -75,6 +75,9 @@
             panel11 = new Panel();
             label19 = new Label();
             label16 = new Label();
+            btnDoiMatKhau = new Panel();
+            label13 = new Label();
+            label22 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -93,6 +96,7 @@
             panel12.SuspendLayout();
             panel10.SuspendLayout();
             panel11.SuspendLayout();
+            btnDoiMatKhau.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -151,6 +155,7 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(224, 224, 224);
+            panel2.Controls.Add(btnDoiMatKhau);
             panel2.Controls.Add(btnLogout);
             panel2.Controls.Add(btnQLDH);
             panel2.Controls.Add(panel6);
@@ -648,6 +653,47 @@
             label16.TabIndex = 1;
             label16.Text = "    ";
             // 
+            // btnDoiMatKhau
+            // 
+            btnDoiMatKhau.BackColor = Color.FromArgb(224, 224, 224);
+            btnDoiMatKhau.BackgroundImageLayout = ImageLayout.Center;
+            btnDoiMatKhau.Controls.Add(label13);
+            btnDoiMatKhau.Controls.Add(label22);
+            btnDoiMatKhau.Cursor = Cursors.Hand;
+            btnDoiMatKhau.Location = new Point(0, 303);
+            btnDoiMatKhau.Name = "btnDoiMatKhau";
+            btnDoiMatKhau.Size = new Size(246, 48);
+            btnDoiMatKhau.TabIndex = 7;
+            btnDoiMatKhau.MouseClick += btnDoiMatKhau_MouseClick;
+            btnDoiMatKhau.MouseEnter += panel_MouseEnter;
+            btnDoiMatKhau.MouseLeave += panel_MouseLeave;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            label13.ForeColor = Color.FromArgb(88, 88, 88);
+            label13.Location = new Point(55, 15);
+            label13.Name = "label13";
+            label13.Size = new Size(113, 21);
+            label13.TabIndex = 3;
+            label13.Text = "Đổi mật khẩu";
+            label13.MouseEnter += label_ForwardMouseEnter;
+            label13.MouseLeave += label_ForwardMouseLeave;
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Font = new Font("Segoe UI", 16F);
+            label22.Image = (Image)resources.GetObject("label22.Image");
+            label22.Location = new Point(12, 12);
+            label22.Name = "label22";
+            label22.Size = new Size(37, 30);
+            label22.TabIndex = 0;
+            label22.Text = "    ";
+            label22.MouseEnter += label_ForwardMouseEnter;
+            label22.MouseLeave += label_ForwardMouseLeave;
+            // 
             // DashBoard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -694,6 +740,8 @@
             panel10.PerformLayout();
             panel11.ResumeLayout(false);
             panel11.PerformLayout();
+            btnDoiMatKhau.ResumeLayout(false);
+            btnDoiMatKhau.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -745,5 +793,8 @@
         private Label lb_kh_desc;
         private Label lb_pt_desc;
         private Label label12;
+        private Panel btnDoiMatKhau;
+        private Label label13;
+        private Label label22;
     }
 }

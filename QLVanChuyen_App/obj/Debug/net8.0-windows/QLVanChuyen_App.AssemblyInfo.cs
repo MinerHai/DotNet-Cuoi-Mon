@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QLVanChuyen_App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ca2c5fe95068a31f94ccf07bd1197beaa116c62")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1933cd96a694d69896120cbda4fecef4eaf187f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("QLVanChuyen_App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QLVanChuyen_App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
